@@ -1,0 +1,35 @@
+Algoritmo may_men
+Definir a,b,c Como Entero
+Escribir "Ingrese el primer valor"
+Leer a
+Escribir "Ingrese el segundo valor"
+Leer b
+Escribir "Ingrese el tercer valor"
+Leer c
+Si a>b y a>c Entonces
+Escribir "El numero mayor es ",a
+SiNo
+Si b>a y b>c Entonces
+Escribir "El numero mayor es ",b
+SiNo
+Si c>a Y c>b
+Escribir "El numero mayor es ",c
+SiNo
+Escribir "Error numero repetido"
+FinSi
+FinSi
+FinSi
+Si a<b y a<c Entonces
+Escribir "El numero menor es ",a
+SiNo
+Si b<a y b<c Entonces
+Escribir "El numero menor es ",b
+SiNo
+Si c<a Y c<b
+Escribir "El numero menor es ",c
+SiNo
+Escribir "Error numero repetido"
+FinSi
+FinSi
+FinSi
+FinAlgoritmo
