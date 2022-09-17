@@ -1,0 +1,9 @@
+Algoritmo hipotenusa
+	Definir a,b,c Como Real
+	Escribir "Ingrese el cateto a"
+	Leer a
+	Escribir "Ingrese el cateto b"
+	Leer b
+	c = raiz((a*a)+(b*b))
+	Escribir "La hipotenusa es: ",c
+FinAlgoritmo
