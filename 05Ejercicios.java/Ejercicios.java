@@ -177,7 +177,7 @@ public class ejercicio {
             }
             
         }else{
-            System.out.println("habiendo tantos numeros escogiste uno negativo y mayor a mill, seras pelotudo");
+            System.out.println("Error de numero");
         }
               System.out.println("Deseas repetir el programa, escribe s para si");
                   letra = entrada.next().charAt(0);
