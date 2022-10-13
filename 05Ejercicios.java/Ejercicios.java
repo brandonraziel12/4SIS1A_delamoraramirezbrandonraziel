@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ejercicio {
+public class Ejercicios {
     /**
      * Vamos a hacer una calculadora, un conversor de unidades creacion de cuadros y
      * de movimiento
