@@ -6,7 +6,6 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
@@ -14,8 +13,6 @@ import javax.swing.JTextField;
 public class Ventana extends JFrame implements ActionListener {
 
     private JPanel mainPanel;
-    private JTextField userBox;
-    private JPasswordField passBox;
 
     // Constructor de la ventana del login.
     public Ventana() {
@@ -50,8 +47,8 @@ public class Ventana extends JFrame implements ActionListener {
 
     private void colocarBotones() {
 
-        userBox = new JTextField();
-        passBox = new JPasswordField();
+        new JTextField();
+        new JPasswordField();
 
         // Boton de salir
         JButton registroButton = new JButton("TEMPERATURAS");
@@ -95,8 +92,13 @@ public class Ventana extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         Ventana mainPanel = new Ventana();
-
         mainPanel.setVisible(true);
+
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // TODO Auto-generated method stub
 
     }
 

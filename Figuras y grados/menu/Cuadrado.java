@@ -54,8 +54,8 @@ public class Cuadrado extends JFrame implements ActionListener {
         } catch (NumberFormatException numberFormatException) {
             return;
         }
-        area=lado*lado;
-        perimetro=lado*4;
+        area = lado * lado;
+        perimetro = lado * 4;
         label_area.setText(String.valueOf(area));
         label_perimetro.setText(String.valueOf(perimetro));
         pack();
