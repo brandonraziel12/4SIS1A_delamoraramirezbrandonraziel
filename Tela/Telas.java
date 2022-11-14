@@ -26,12 +26,12 @@ public class Telas {
         try {
 
             op = Integer.parseInt(JOptionPane.showInputDialog(null,
-                    "Bienvenido a la Calculadora de Huella de Carbono  \nEscoje alguna de las telas disponibles : \n 1 Poliester \n 2 Lana \n 3 Algodon \n Introducir opcion : "));
+                    "Calculadora de Huella de Carbono  \nEscoje alguna de las telas : \n 1 Poliester \n 2 Lana \n 3 Algodon \n Introducir opcion : "));
             switch (op) {
 
                 case 1:
                     peso = Double.parseDouble(
-                            JOptionPane.showInputDialog(null, "Ingresa el peso de la prenda : (en Gramos) "));
+                            JOptionPane.showInputDialog(null, "Ingresa el peso de la prenda"));
                     trayecto = Double.parseDouble(JOptionPane.showInputDialog(null,
                             " Ingresa el trayecto que haces al comprar la predan ( km )"));
                     resultado1 = (peso * Poliester);
