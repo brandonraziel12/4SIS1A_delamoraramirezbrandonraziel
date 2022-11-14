@@ -33,7 +33,7 @@ public class Telas {
                     peso = Double.parseDouble(
                             JOptionPane.showInputDialog(null, "Ingresa el peso de la prenda : (en Gramos) "));
                     trayecto = Double.parseDouble(JOptionPane.showInputDialog(null,
-                            " Ingresa el trayecto que haces por al comprar la predan ( km )"));
+                            " Ingresa el trayecto que haces al comprar la predan ( km )"));
                     resultado1 = (peso * Poliester);
                     resultado2 = (peso * maquina);
                     resultado3 = (gasolina * trayecto);
